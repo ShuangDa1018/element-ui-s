@@ -4,7 +4,7 @@ import CountUp from './count-up'
 import Dialogdrag from './dialogdrag'
 import Fullscreen from './fullscreen'
 import HighlightCode from './highlight-code'
-import HtmlPdf from './html-pdf'
+// import HtmlPdf from './html-pdf'
 import Keyboard from './keyboard'
 import Magnifie from './magnifie'
 import Nprogress from './nprogress'
@@ -45,7 +45,7 @@ const install = function(Vue){
     Vue.prototype.$Watermark = Watermark
     Vue.prototype.$Screenshot = Screenshot
     Vue.prototype.$Fullscreen = Fullscreen
-    Vue.prototype.$HtmlPdf = HtmlPdf
+    // Vue.prototype.$HtmlPdf = HtmlPdf
     Vue.directive('dialogdrag',Dialogdrag)
 }
 if(typeof window !== 'undefined'&&window.Vue){
