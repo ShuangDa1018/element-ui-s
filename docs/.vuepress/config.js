@@ -1,5 +1,4 @@
 // .vuepress/config.js
-console.log(process.env,process)
 module.exports = {
   base:'/element-ui-s/',
   title:'Element-Ui-S',
@@ -27,7 +26,7 @@ module.exports = {
             ]
           },
           {title:'组件',collapsable: false, },
-          // {title:'atest',path: 'atest',},// 测试组件打开用()
+          // isDev?{title:'atest',path: 'atest',},// 测试组件打开用()
           {title:'count-up 数字动画',path: 'count-up',},
           {title:'chat 客服聊天',path: 'chat',},
           {title:'copy 复制',path: 'copy',},

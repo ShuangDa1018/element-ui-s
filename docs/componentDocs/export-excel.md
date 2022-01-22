@@ -1,7 +1,7 @@
 # export-excel 数字动画
 
 
-elemtui 的 el-dialog组件，添加v-dialogdrag指令即可拖动
+添加v-dialogdrag指令即可拖动弹框，默认参数是element-ui 的 el-dialog组件，
 ::: demo 
 ```vue 
 <template>

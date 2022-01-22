@@ -3,9 +3,11 @@ export default {
     bind (el, binding, vnode, oldVnode) {
       const value = binding.value
       if (value == false) return
+      const header = value.header||'.el-dialog__header' 
+      const body = value.body||'.el-dialog'
       // 获取拖拽内容头部
-      const dialogHeaderEl = el.querySelector('.el-dialog__header');
-      const dragDom = el.querySelector('.el-dialog');
+      const dialogHeaderEl = el.querySelector(header);
+      const dragDom = el.querySelector(body);
       dialogHeaderEl.style.cursor = 'move';
       // 获取原有属性 ie dom元素.currentStyle 火狐谷歌 window.getComputedStyle(dom元素, null);
       const sty = dragDom.currentStyle || window.getComputedStyle(dragDom, null);
