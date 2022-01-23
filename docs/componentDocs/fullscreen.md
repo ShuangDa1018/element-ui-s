@@ -1,5 +1,4 @@
 # fullscreen 全屏
-<test></test>
 开启、关闭全屏
 :::demo
 ```vue

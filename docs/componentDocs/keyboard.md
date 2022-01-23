@@ -1,6 +1,6 @@
 # keyboard 键盘
 
-模拟键盘，后续会增加键盘显示同步
+模拟键盘，鼠标点击和键盘输入双向绑定输出。
 :::demo
 ```vue
 <template>
@@ -80,5 +80,10 @@ export default {
 keys | 键盘按钮 |	Array	| -- | 键盘
 type | 键盘类型 |	String	| default/number/mobile
 theme | 主题 | String | default/green/dark/classic | default
-<start />
+
+
+:::数字键盘
+```vue
+```
+:::
 <vssue/>
